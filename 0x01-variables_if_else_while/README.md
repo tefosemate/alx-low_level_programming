@@ -1,1 +1,1 @@
-C variable readme.
+Readme for c variables.
