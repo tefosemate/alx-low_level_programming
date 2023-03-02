@@ -2,12 +2,13 @@
 
 /**
  * print_last_digit - prints the last digit of a number.
- * @n: digit to find the last place of the number.
- * Return: 0
+ * @n: digit to find the last place of a number.
+ * Return: The last digit.
  */
 int print_last_digit(int n)
 {
 	if (n < 0)
+    
 		n = n * -1;
 	_putchar((n % 10) + '0');
 	return (n % 10);
