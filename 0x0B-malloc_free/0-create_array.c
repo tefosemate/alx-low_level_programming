@@ -3,13 +3,13 @@
 /**
  * create_array - Main Entry
  * @size: input
- * @c: characters
+ * @c: input
  * Return: 0
  */
 char *create_array(unsigned int size, char c)
 {
 		char *arr;
-		unsigned int j;
+		unsigned int i;
 
 		if (size == 0)
 		{
@@ -24,9 +24,9 @@ char *create_array(unsigned int size, char c)
 			return (NULL);
 		}
 
-		for (j = 0; k < size; k++)
+		for (i = 0; i < size; i++)
 		{
-			arr[k] = c;
+			arr[i] = c;
 		}
 
 		return (arr);
